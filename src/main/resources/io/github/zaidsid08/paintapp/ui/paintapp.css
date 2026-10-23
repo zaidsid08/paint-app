@@ -1,0 +1,42 @@
+/* Paint App, written October 2026. Rewrite of coursework from Oct–Nov 2024. See README. */
+
+.root {
+    -fx-font-size: 13px;
+    -fx-base: #ecebe7;
+    -fx-accent: #2f6fed;
+    -fx-focus-color: #2f6fed;
+}
+
+.tool-bar {
+    -fx-padding: 6 8;
+    -fx-spacing: 4;
+}
+
+.tool-bar .toggle-button {
+    -fx-min-width: 78px;
+}
+
+.tool-bar .toggle-button:selected {
+    -fx-base: #2f6fed;
+}
+
+.style-panel {
+    -fx-background-color: #f2f1ed;
+    -fx-border-color: #dcdad3;
+    -fx-border-width: 0 0 0 1;
+}
+
+.panel-heading {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.status-bar {
+    -fx-background-color: #ecebe7;
+    -fx-border-color: #dcdad3;
+    -fx-border-width: 1 0 0 0;
+}
+
+.status-bar .label {
+    -fx-text-fill: #55534d;
+}
